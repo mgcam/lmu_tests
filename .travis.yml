@@ -1,0 +1,6 @@
+perl:
+  - "5.16"
+  - "5.22-shrplib"
+dist:
+  - precise
+
