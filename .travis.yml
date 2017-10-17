@@ -9,4 +9,6 @@ perl:
   - "5.22"
   - "5.22-shrplib"
 before_install:
+  - find /home/travis/perl5/perlbrew/perls | grep MoreUtils
   - cpanm --installdeps .
+  - find /home/travis/perl5/perlbrew/perls | grep MoreUtils
