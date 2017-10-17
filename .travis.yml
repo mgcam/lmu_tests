@@ -8,3 +8,5 @@ perl:
   - "5.20-shrplib"
   - "5.22"
   - "5.22-shrplib"
+before_install:
+  - cpanm --installdeps .
