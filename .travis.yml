@@ -10,3 +10,4 @@ perl:
   - "5.22-shrplib"
 dist:
   - precise
+  - trusty
