@@ -9,6 +9,5 @@ perl:
   - "5.22"
   - "5.22-shrplib"
 before_install:
-  - find /home/travis/perl5/perlbrew/perls | grep MoreUtils
+  - cpanm http://search.cpan.org/CPAN/authors/id/R/RE/REHSACK/List-MoreUtils-0.427_001.tar.gz
   - cpanm --installdeps .
-  - find /home/travis/perl5/perlbrew/perls | grep MoreUtils
